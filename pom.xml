@@ -264,6 +264,17 @@
          <enabled>false</enabled>
        </snapshots>
     </repository>
+    <repository>
+      <id>HDP</id>
+      <name>HDP Releases</name>
+      <url>http://repo.hortonworks.com/content/groups/public/</url>
+      <releases>
+          <enabled>true</enabled>
+      </releases>
+      <snapshots>
+          <enabled>true</enabled>
+      </snapshots>
+    </repository>     
   </repositories>
 
   <dependencyManagement>
